@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/icon-font.css"> -->
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="stylesheet" href="assets/icons/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/icons/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="assets/logos/faviconblue.png" type="image/x-icon">
+    <title>Legarl | Case Management Software</title>
+</head>
+
+<body>
+
+    <!-- Mobile menu -->
+
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+        <div class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="index.html" class="navigation__link">
+                        Home</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="about.html" class="navigation__link">
+                        About</a>
+                </li>
+                <li class="navigation__item dropdown">
+                    <a href="features.html" class="navigation__link nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Features</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="features/case-management.html">Case Management</a>
+                        <a class="dropdown-item" href="features/billing.html">Billing</a>
+                        <a class="dropdown-item" href="features/payments.html">Payment</a>
+                        <a class="dropdown-item" href="features/legal-accounting.html">Legal accounting</a>
+                        <a class="dropdown-item" href="features/document-management.html">Document Management</a>
+                        <a class="dropdown-item" href="features/calender.html">Calender and Reminders</a>
+                    </div>
+                </li>
+                <li class="navigation__item">
+                    <a href="pricing.html" class="navigation__link">
+                        Pricing</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="faq.html" class="navigation__link">
+                        FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="header js-header">
+        <nav class="nav-bar js__header-sticky clearfix">
+            <div class="logo-box">
+                <a title="Legarl" href="index.html">
+                    <img src="assets/logos/legarl-white.png" alt="Legarl Logo" class="site-logo logo-default">
+
+                    <img src="assets/logos/legarl-dark.png" alt="Legarl Logo" class="site-logo nav-bar__sticky logo-stick" height="100" width="150">
+                </a>
+            </div>
+            <ul class="nav-menu float-left">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="features.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Features
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="features/case-management.html">Case Management</a>
+                        <a class="dropdown-item" href="features/billing.html">Billing</a>
+                        <a class="dropdown-item" href="features/payments.html">Payment</a>
+                        <a class="dropdown-item" href="features/legal-accounting.html">Legal accounting</a>
+                        <a class="dropdown-item" href="features/document-management.html">Document Management</a>
+                        <a class="dropdown-item" href="features/calender.html">Calender and Reminders</a>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="pricing.html" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link">FAQ</a>
+                </li>
+            </ul>
+
+            <div class="float-right nav-cta">
+                <a href="#" class=" nav-ctas   mr-1">Log In</a>
+                <a href="#" class=" nav-ctas  ml-3"> Free Trial</a>
+            </div>
+        </nav>
+
+        <div class="mobile-logo-box">
+            <a href="index.html">
+                <img src="assets/logos/legarl-white.png" alt="Legarl Logo" class="mobile-logo">
+            </a>
+        </div>
+
+        <div class="intro container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-text-box">
+                        <h1 class="header-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. </h1>
+                        <div class="row header-cta">
+                            <div class="col-lg-12 ">
+                                <a href="#" class="btn btn-all-features btn-round btn-animated mt-5">Start a Free Trial Today</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 intro-image-container">
+                    <div class="intro__image">
+                        <img src="assets/img/dribbble-3.jpg" alt="Legarl dashboard">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="page-content">
+        <section class="section-wrap">
+            <div class="container-fluid">
+                <h2 class="section-heading">Made Just For You</h2>
+                <div class="row ">
+                    <div class="col-md-6 mx-auto">
+                        <div class="section-image mt-5">
+                            <img src="assets/img/header-bg-img.jpg" alt="Features">
+                        </div>
+                    </div>
+
+                    <div class="col-md-5  mx-auto ">
+                        <div class="section-content mt-5">
+                            <p class="brief">Legarl ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section-wrap bg-grey skew-content">
+            <div class="container-fluid">
+                <div class="unskew-content">
+                    <h2 class="section-heading">Everything Just In Place</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 mb-5">
+                            <p class="text-center">Legal offers you all you need to run a law practice from intake to invoice, with powerful tools
+                                to manage cases, clients, dociments, bills, calenders, time tracking, reportings and accounting</p>
+
+
+                        </div>
+                    </div>
+
+                    <div class="features-area">
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <div class="card features-box">
+                                    <div class="card-body">
+
+                                        <div class="features-box__icon-wrap ">
+
+                                            <i class="features-box__icon ti-android"></i>
+
+                                        </div>
+                                        <div class="features-box__content">
+                                            <h3 class="features-box__heading">Manage Cases With Ease</h3>
+                                            <p class="">Lorem ipsum dolor, perspiciatis! Debitis, deserunt tempora. Lorem ipsum dolor,
+                                                perspiciatis! Debitis, deserunt tempora.Lorem ipsum dolor, perspiciatis!
+                                                Debitis....
+                                            </p>
+                                            <p>
+                                                <small>
+                                                    <a href="#" class="text-lowercase">read more</a>
+                                                </small>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card features-box">
+                                    <div class="card-body">
+
+                                        <div class="features-box__icon-wrap">
+
+                                            <i class="features-box__icon ti ti-files"></i>
+
+                                        </div>
+                                        <div class="features-box__content">
+                                            <h3 class="features-box__heading">Manage Cases With Ease</h3>
+                                            <p class="">Lorem ipsum dolor, perspiciatis! Debitis, deserunt tempora. Lorem ipsum dolor,
+                                                perspiciatis! Debitis, deserunt tempora.Lorem ipsum dolor, perspiciatis!
+                                                Debitis....
+                                            </p>
+                                            <p>
+                                                <small>
+                                                    <a href="#" class="text-lowercase">read more</a>
+                                                </small>
+                                            </p>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card features-box">
+                                    <div class="card-body">
+
+                                        <div class="features-box__icon-wrap">
+
+                                            <i class="features-box__icon ti ti-pie-chart"></i>
+
+                                        </div>
+                                        <div class="features-box__content">
+                                            <h3 class="features-box__heading">Comprehensive Listing</h3>
+                                            <p class="">Lorem ipsum dolor, perspiciatis! Debitis, deserunt tempora. Lorem ipsum dolor,
+                                                perspiciatis! Debitis, deserunt tempora.Lorem ipsum dolor, perspiciatis!
+                                                Debitis....
+                                            </p>
+                                            <p>
+                                                <small>
+                                                    <a href="#" class="text-lowercase">read more</a>
+                                                </small>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 p-3"></div>
+                    </div>
+
+                    <div class="features-area ">
+                        <div class="row mt-5">
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="page-btn unskew-content">
+
+                    <a title="View all features" href="features.html" target="_blank" class="btn btn-all-features">View All Features</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-wrap third-wrapper skew-content">
+            <div class="features-area">
+                <div class="unskew-content container">
+                    <h2 class="section-heading mt-5">Why Legarl?</h2>
+                    <div class="row">
+
+                        <div class="col-md-5 border section-benefit section-benefit-0">
+                            <div class="">
+                                <img src="assets/logos/legarl-dark.png" alt="" width="150" class="mb-5">
+                            </div>
+                            <p class="mt-5">
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor
+                            </p>
+                            <footer>
+                                -Jamesbond
+                            </footer>
+                        </div>
+                        <div class="col-md-5 border section-benefit section-benefit-1">
+                            <div class="">
+                                <img src="assets/logos/legarl-dark.png" alt="" width="150" class="mb-5">
+                            </div>
+                            <p class="mt-5">Benefits 2 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna ipsum dolor
+                            </p>
+                            <footer>
+                                -Jamesbond
+                            </footer>
+                        </div>
+
+                        <div class="col-md-5 border section-benefit section-benefit-2">
+                            <div class="">
+                                <img src="assets/logos/legarl-dark.png" alt="" width="150" class="mb-5">
+                            </div>
+                            <p class="mt-5">Benefits 3 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna ipsum dolor
+                            </p>
+                            <footer>
+                                -Jamesbond
+                            </footer>
+                        </div>
+
+                        <div class="col-md-1 p-0 m-0"></div>
+
+                        <div class="col-md-6">
+                            <div class="section-content benefit-contents benefit-contents-0  pt-0 ">
+
+                                <h2 class="header-benefit mb-1">
+                                    <i class="benefit__icon ti ti-server "></i>No Installations Required</h2>
+                                <p>With our cloud based software, legarl lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor.. </p>
+
+                            </div>
+                            <div class="section-content benefit-contents benefit-contents-1 pt-3 ">
+
+                                <h2 class="header-benefit mb-1">
+                                    <i class="benefit__icon ti ti-lock "></i>Security Our Paramount Importance</h2>
+                                <p>With Legarl, all your informations are encrypted with end to end encryption technology making
+                                    your data secure and strictly protected, no need worrying about information leak. </p>
+                            </div>
+                            <div class="section-content benefit-contents benefit-contents-2 pt-3 ">
+
+                                <h2 class="header-benefit mb-1">
+                                    <i class=" benefit__icon icon icon-action-redo "></i>No Installations Required</h2>
+                                <p>With our cloud based software, legarl lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor.. </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-wrap fifth-wrapper bg-grey">
+            <div class="container">
+                <h2 class="section-heading mb-3">Try Legarl Today!</h2>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="cta-heading">Become part of the community of smart lawyers who use Legarl.
+                            <br/> Get started for free.</h4>
+
+
+                        <div class="text-center">
+
+                            <a href="#" class="btn btn-round btn-cta btn-outline mt-2">Start My Free Trial</a>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-links row">
+                    <div class="col-md-3">
+
+                        <img src="assets/logos/legarl-white.png" class="footer-logo" alt="Legarl Logo">
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li class="footer-links__heading">Links</li>
+                            <hr class="footer-line">
+                            <li>
+
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="features.html">Features</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li class="footer-links__heading">Social</li>
+                            <hr class="footer-line">
+                            <li>
+                                <a href="#">Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#">LinkedIn</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-2">
+                        <ul>
+                            <li class="footer-links__heading">Help</li>
+                            <hr class="footer-line">
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms and Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/menu.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.benefit-contents-0').hover(function () {
+
+                $('.section-benefit').css('display', 'none');
+                $('.section-benefit-0').css({
+                    'display': 'block',
+                    'animation': 'moveInRight 1s ease-out '
+                });
+
+            },
+            ),
+                $('.benefit-contents-1').hover(function () {
+                    $('.section-benefit').css('display', 'none');
+                    $('.section-benefit-1').css({
+                        'display': 'block',
+                        'animation': 'moveInRight 1s ease-out '
+                    });
+
+                }
+                ),
+                $('.benefit-contents-2').hover(function () {
+                    $('.section-benefit').css('display', 'none');
+                    $('.section-benefit-2').css({
+                        'display': 'block',
+                        'animation': 'moveInRight 1s ease-out '
+                    });
+
+                }
+                )
+        });
+
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
